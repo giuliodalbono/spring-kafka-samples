@@ -1,0 +1,12 @@
+// Demo message definition using Protocol Buffer.
+// protoc-jar-maven-plugin will generate Java class from this file (use it as record type when produce or consume events).
+
+syntax = "proto3";
+
+option java_package = "io.github.giuliodalbono.springkafkasamples.protobufsample";
+option java_outer_classname = "MessageProto";
+
+message Message {
+  int64 id = 1;
+  string description = 2;
+}
