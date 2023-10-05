@@ -19,7 +19,7 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <protobuf-java.version>3.24.2</protobuf-java.version>
+        <protobuf-java.version>3.24.4</protobuf-java.version>
         <protoc-jar-maven-plugin.version>3.11.4</protoc-jar-maven-plugin.version>
         <kafka-protobuf-serializer.version>7.4.0</kafka-protobuf-serializer.version>
     </properties>
