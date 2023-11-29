@@ -1,4 +1,4 @@
-package io.github.giuliodalbono.springkafkasamples.protobufsample.utils;
+package io.github.giuliodalbono.springkafkasamples.protobufsample.util;
 
 /**
  * Utility interface to define constant strings.

@@ -1,14 +1,15 @@
 package io.github.giuliodalbono.springkafkasamples.protobufsample.producer;
 
-import io.github.giuliodalbono.springkafkasamples.protobufsample.utils.Constants;
 import io.github.giuliodalbono.springkafkasamples.protobufsample.MessageProto;
+import io.github.giuliodalbono.springkafkasamples.protobufsample.util.Constants;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
 /**
- * Producer class which sends Kafka events (then consumed by the {@link io.github.giuliodalbono.springkafkasamples.protobufsample.consumer.Consumer Consumer}).
+ * Producer class which sends Kafka events (then consumed by the
+ * {@link io.github.giuliodalbono.springkafkasamples.protobufsample.consumer.Consumer Consumer}).
  *
  * @see io.github.giuliodalbono.springkafkasamples.protobufsample.consumer.Consumer Consumer
  */
