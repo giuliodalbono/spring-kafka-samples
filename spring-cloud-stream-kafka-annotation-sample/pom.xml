@@ -81,7 +81,7 @@
                             <compilerArgument>-proc:none</compilerArgument>
                             <includes>
                                 <include>
-                                    io/github/giuliodalbono/springkafkasamples/spring/cloud/stream/kafka/aop/sample/configuration/annotation/KafkaListenerAnnProcessor.java
+                                    io/github/giuliodalbono/springkafkasamples/spring/cloud/stream/kafka/annotation/sample/configuration/annotation/KafkaListenerAnnProcessor.java
                                 </include>
                             </includes>
                         </configuration>
