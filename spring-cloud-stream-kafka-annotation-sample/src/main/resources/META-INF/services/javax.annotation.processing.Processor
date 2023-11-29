@@ -1,1 +1,1 @@
-io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.aop.sample.configuration.annotation.KafkaListenerAnnProcessor
+io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.configuration.annotation.KafkaListenerAnnProcessor
