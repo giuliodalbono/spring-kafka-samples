@@ -1,7 +1,7 @@
 package io.github.giuliodalbono.springkafkasamples.protobufsample.consumer;
 
-import io.github.giuliodalbono.springkafkasamples.protobufsample.utils.Constants;
 import io.github.giuliodalbono.springkafkasamples.protobufsample.MessageProto;
+import io.github.giuliodalbono.springkafkasamples.protobufsample.util.Constants;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.kafka.annotation.KafkaListener;
@@ -16,11 +16,10 @@ import org.springframework.stereotype.Service;
 @Slf4j
 @Service
 public class Consumer {
-
     /**
      * KafkaListener which consumes using Protobuf deserializer as configured in application.yaml.
-     * Record value type is {@link io.github.giuliodalbono.springkafkasamples.protobufsample.MessageProto.Message} because
-     * in application.yaml is configured:<br>
+     * Record value type is {@link io.github.giuliodalbono.springkafkasamples.protobufsample.MessageProto.Message}
+     * because in application.yaml is configured:<br>
      * "{@code spring.kafka.consumer.properties.specific.protobuf.value.type}" so the record is automatically
      * deserialized to that type.
      *
