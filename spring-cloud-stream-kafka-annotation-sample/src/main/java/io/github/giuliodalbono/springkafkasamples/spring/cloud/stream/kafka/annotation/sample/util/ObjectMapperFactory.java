@@ -1,4 +1,4 @@
-package io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.utils;
+package io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.util;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.MapperFeature;

@@ -4,7 +4,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.model.ItemEvent;
 import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.model.OrderEvent;
 import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.service.Processors;
-import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.utils.ObjectMapperFactory;
+import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.util.ObjectMapperFactory;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.core.KafkaTemplate;

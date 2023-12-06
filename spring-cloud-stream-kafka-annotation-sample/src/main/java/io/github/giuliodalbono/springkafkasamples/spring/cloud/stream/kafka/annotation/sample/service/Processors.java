@@ -3,7 +3,7 @@ package io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.ann
 import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.model.ItemEvent;
 import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.model.OrderEvent;
 import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.configuration.annotation.AutoConfiguredKafkaListener;
-import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.utils.Constants;
+import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.util.Constants;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 

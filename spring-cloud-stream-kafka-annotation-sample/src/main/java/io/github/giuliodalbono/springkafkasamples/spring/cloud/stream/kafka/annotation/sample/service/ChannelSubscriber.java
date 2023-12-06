@@ -2,8 +2,8 @@ package io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.ann
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.model.Event;
-import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.utils.ApplicationContextProvider;
-import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.utils.ObjectMapperFactory;
+import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.util.ApplicationContextProvider;
+import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.util.ObjectMapperFactory;
 import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.configuration.annotation.AutoConfiguredKafkaListener;
 import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.evaluation.MethodEvaluator;
 import jakarta.annotation.Nonnull;

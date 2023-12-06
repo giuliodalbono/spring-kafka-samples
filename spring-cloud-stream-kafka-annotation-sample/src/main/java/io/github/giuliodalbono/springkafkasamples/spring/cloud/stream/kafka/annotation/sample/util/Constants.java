@@ -1,4 +1,4 @@
-package io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.utils;
+package io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.util;
 
 public interface Constants {
     String TEST_TOPIC = "test-topic";

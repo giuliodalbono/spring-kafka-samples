@@ -3,7 +3,7 @@ package io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.ann
 import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.configuration.annotation.AutoConfiguredKafkaListener;
 import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.evaluation.MethodValidator;
 import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.publisher.AnnotationScanPublisher;
-import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.utils.ApplicationContextProvider;
+import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.util.ApplicationContextProvider;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.annotation.Configuration;

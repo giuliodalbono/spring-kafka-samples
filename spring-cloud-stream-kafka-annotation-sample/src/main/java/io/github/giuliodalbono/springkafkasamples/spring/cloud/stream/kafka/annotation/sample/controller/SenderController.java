@@ -2,7 +2,7 @@ package io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.ann
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.producer.Producer;
-import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.utils.Constants;
+import io.github.giuliodalbono.springkafkasamples.spring.cloud.stream.kafka.annotation.sample.util.Constants;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/AopSample")
+@RequestMapping("/SpringCloudAnnotationSample")
 public class SenderController {
     private final Producer producer;
 
