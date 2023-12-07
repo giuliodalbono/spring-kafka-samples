@@ -36,7 +36,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <commons-lang3.version>3.14.0</commons-lang3.version>
-        <spring-cloud-dependencies.version>2022.0.4</spring-cloud-dependencies.version>
+        <spring-cloud-dependencies.version>2023.0.0</spring-cloud-dependencies.version>
     </properties>
 
     <dependencyManagement>
