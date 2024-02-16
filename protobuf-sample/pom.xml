@@ -16,7 +16,7 @@
     <version>0.1.0-SNAPSHOT</version>
 
     <properties>
-        <protobuf-java.version>3.25.1</protobuf-java.version>
+        <protobuf-java.version>3.25.3</protobuf-java.version>
         <protoc-jar-maven-plugin.version>3.11.4</protoc-jar-maven-plugin.version>
         <kafka-protobuf-serializer.version>7.5.1</kafka-protobuf-serializer.version>
     </properties>
